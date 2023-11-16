@@ -1,0 +1,22 @@
+{
+  "name": "post-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "postcss input.scss -o output.css -w --map"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "yarn": "1.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-dart-sass": "^1.0.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.3.0"
+  }
+}
